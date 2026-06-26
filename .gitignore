@@ -1,0 +1,23 @@
+# Dependencias
+node_modules/
+front/node_modules/
+back/node_modules/
+
+# Build
+front/dist/
+
+# Variables de entorno (contienen URLs y datos sensibles)
+.env
+front/.env
+back/.env
+
+# Zips de deploy
+*.zip
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
