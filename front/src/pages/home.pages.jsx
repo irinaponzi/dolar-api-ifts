@@ -23,15 +23,18 @@ export default function Home() {
                 </div>
             </div>
             <div className="contenedor">
-                <div>
+                <p className="seccion-titulo">Cotización del día</p>
+                <div className="cards-grid">
                     <DolarOficial />
                     <DolarBlue />
                     <DolarCCL />
                     <DolarCripto />
                 </div>
             </div>
-            <Historial />
-            <Info />
+            <div className="historial-seccion">
+                <Historial />
+                <Info />
+            </div>
         </div>
     )
 }
