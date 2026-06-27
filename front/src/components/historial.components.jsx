@@ -2,11 +2,13 @@ import { useState, useEffect } from 'react'
 import { historialService } from '../services/dolar.services'
 
 const TIPOS = [
-    { value: 'blue', label: 'Blue' },
     { value: 'oficial', label: 'Oficial' },
-    { value: 'bolsa', label: 'MEP' },
+    { value: 'blue', label: 'Blue' },
+    { value: 'bolsa', label: 'Bolsa' },
+    {value: 'mayorista', label: 'Mayorista'},
     { value: 'contadoconliqui', label: 'CCL' },
     { value: 'cripto', label: 'Cripto' },
+    {value: 'tarjeta', label: 'Tarjeta'},
 ]
 
 const RANGOS = [

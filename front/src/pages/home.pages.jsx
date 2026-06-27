@@ -8,6 +8,9 @@ import Info from "../components/info.components"
 import Fecha from "../components/fecha.components"
 import Reload from "../components/reload.components"
 import Historial from "../components/historial.components"
+import DolarBolsa from "../components/dolarBolsa.components"
+import DolarMayorista from "../components/dolarMayorista.componets"
+import DolarTarjeta from "../components/dolarTarjeta.components"
 
 
 export default function Home() {
@@ -27,8 +30,12 @@ export default function Home() {
                 <div className="cards-grid">
                     <DolarOficial />
                     <DolarBlue />
+                    <DolarBolsa />
+                    <DolarMayorista />
                     <DolarCCL />
                     <DolarCripto />
+                    <DolarTarjeta />
+   
                 </div>
             </div>
             <div className="historial-seccion">

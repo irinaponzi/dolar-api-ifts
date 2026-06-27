@@ -11,6 +11,7 @@ export const precioService = async (tipoDolar) => {
         venta: data.venta,
         fecha: data.fechaActualizacion
     }
+
 }
 
 export const historialService = async (tipoDolar, rango = 'semana') => {
